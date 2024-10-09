@@ -2,6 +2,9 @@
 * Esther M. Quintero
 * alu0101434780@ull.edu.es
 
+> [!WARNING]  
+> Los gifs tardan un poco en cargar al abrirlo desde GitHub.
+
 ## Índice <div id='indice'/>
 
 1. [Ejercicio 1](#uno)
@@ -26,6 +29,7 @@ Se ha creado un objeto básico (cubo) y se le ha añadido el script: [ej1-vector
 * [Serialización](https://docs.unity3d.com/Manual/script-Serialization.html)
 * [Random](https://docs.unity3d.com/Manual/class-Random.html)
 * [Renderer](https://docs.unity3d.com/ScriptReference/Renderer.html)
+* [Color](https://docs.unity3d.com/ScriptReference/Color.html)
 
 ![ejercicio1.gif](./Gifs/ejercicio1.gif)    
 
@@ -34,6 +38,10 @@ Se ha creado un objeto básico (cubo) y se le ha añadido el script: [ej1-vector
 2. _Crea una escena simple en la que ubiques un plano y sobre él un cubo, una esfera y un cilindro._
     * Cada uno de los objetos debe estar en un color diferente. 
     * En la consola cada objeto debe mostrar su nombre.
+
+Se han creado los objetos con los colores verde, azul y rojo (con materiales personalizados). 
+Se le ha añadido a cada objeto el script: [ej2-escena.cs](./Scripts/ej2-escena.cs).
+En la animación se puede obsevar que se muestra por consola el nombre de cada objeto.
 
 ![ejercicio2.gif](./Gifs/ejercicio2.gif)
 
