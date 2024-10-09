@@ -92,6 +92,12 @@ Se puede ver en el script: [ej5-distancias.cs](./Scripts/ej5-distancias.cs).
     * Estos vectores representan un desplazamiento respecto a la posición original del objeto. 
     * Crea un script que ubique en las posiciones configuradas cuando el usuario pulse la barra espaciadora.
 
+En este apartado se ha usado un componente del tipo "Variable". En él, se ha añadido el desplazamiento.
+Se puede apreciar en el gif ese componente (en la zona del inspector).
+El script que se encarga de detectar si se ha pulsado el espacio y de sumar el desplazamiento es [ej6-marcador.cs](./Scripts/ej6-marcador.cs).
+
+* [Class Variables](https://docs.unity3d.com/Packages/com.unity.visualscripting@1.9/api/Unity.VisualScripting.Variables.html)
+
 ![ejercicio6.gif](./Gifs/ejercicio6.gif)
 
 ### Ejercicio 7 <div id='siete'/>
