@@ -43,6 +43,8 @@ Se han creado los objetos con los colores verde, azul y rojo (con materiales per
 Se le ha añadido a cada objeto el script: [ej2-escena.cs](./Scripts/ej2-escena.cs).
 En la animación se puede obsevar que se muestra por consola el nombre de cada objeto.
 
+* [Propiedad name](https://docs.unity3d.com/ScriptReference/Object-name.html)
+
 ![ejercicio2.gif](./Gifs/ejercicio2.gif)
 
 ### Ejercicio 3 <div id='tres'/>
@@ -53,6 +55,12 @@ En la animación se puede obsevar que se muestra por consola el nombre de cada o
     * La distancia entre ambos.
     * Un mensaje indicando qué vector está a una altura mayor.
     * Muestra en el inspector cada uno de esos valores
+
+Se han creado las variables pedidas más unas variables que se usan para mostrar los resultados en el inspector.
+Se puede ver el código del script en [ej3-esfera.cs](./Scripts/ej3-esfera.cs)
+En el gif se puede ver cómo están las variables en el inspector y cómo se muestran los resultados por consola.
+
+* [Vector3](https://docs.unity3d.com/ScriptReference/Vector3.html)
 
 ![ejercicio3.gif](./Gifs/ejercicio3.gif)
 
