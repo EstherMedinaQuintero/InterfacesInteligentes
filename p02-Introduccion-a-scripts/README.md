@@ -21,11 +21,21 @@
     * Cada 120 frames se debe cambiar el valor de una posición aleatoria y asignar el nuevo color al objeto. 
     * Parametrizar la cantidad de frames de espera para poderlo cambiar desde el inspector.
 
+Se ha creado un objeto básico (cubo) y se le ha añadido el script: [ej1-vector.cs](./Scripts/ej1-vector.cs). En la animación se puede observar el cambio de color y, a la derecha, el parámetro que sirve para controlar los frames.
+
+* [Serialización](https://docs.unity3d.com/Manual/script-Serialization.html)
+* [Random](https://docs.unity3d.com/Manual/class-Random.html)
+* [Renderer](https://docs.unity3d.com/ScriptReference/Renderer.html)
+
+![ejercicio1.gif](ejercicio1.gif)
+
 ### Ejercicio 2 <div id='dos'/>
 
 2. _Crea una escena simple en la que ubiques un plano y sobre él un cubo, una esfera y un cilindro. 
     * Cada uno de los objetos debe estar en un color diferente. 
     * En la consola cada objeto debe mostrar su nombre.
+
+![ejercicio2.gif](ejercicio2.gif)
 
 ### Ejercicio 3 <div id='tres'/>
 
@@ -36,13 +46,19 @@
     * Un mensaje indicando qué vector está a una altura mayor.
     * Muestra en el inspector cada uno de esos valores
 
+![ejercicio3.gif](ejercicio3.gif)
+
 ### Ejercicio 4 <div id='cuatro'/>
 
 4. _Muestra en pantalla el vector con la posición de la esfera._
 
+![ejercicio4.gif](ejercicio4.gif)
+
 ### Ejercicio 5 <div id='cinco'/>
 
 5. _Crea un script para la esfera que muestre en consola la distancia a la que están el cubo y el cilindro._
+
+![ejercicio5.gif](ejercicio5.gif)
 
 ### Ejercicio 6 <div id='seis'/>
 
@@ -50,9 +66,13 @@
     * Estos vectores representan un desplazamiento respecto a la posición original del objeto. 
     * Crea un script que ubique en las posiciones configuradas cuando el usuario pulse la barra espaciadora.
 
+![ejercicio6.gif](ejercicio6.gif)
+
 ### Ejercicio 7 <div id='siete'/>
 
 7. _Cambia el color del cilindro cuando el usuario pulse la tecla C, cambia el color del cubo cuando el usuario pulse la flecha arriba._
+
+![ejercicio7.gif](ejercicio7.gif)
 
 ### Ejercicio 8 <div id='ocho'/>
 
@@ -61,3 +81,5 @@
     * En la escena también habrá un cubo. 
     * Implementa un script que aumente la altura de la esfera de tipo 2 más cercana al cubo. 
     * Cambia el color de la más lejana cuando el jugador pulsa la tecla espacio.
+
+![ejercicio8.gif](ejercicio8.gif)
