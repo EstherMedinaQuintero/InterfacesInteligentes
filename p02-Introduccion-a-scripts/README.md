@@ -80,6 +80,10 @@ En la ejecución se muestra por consola la posición actual de la esfera (y se c
 
 5. _Crea un script para la esfera que muestre en consola la distancia a la que están el cubo y el cilindro._
 
+Para poder hacer este ejercicio se han buscado los objetos por su etiqueta.
+Se llama a la función "Distance" de la clase Vector3 con las posiciones. 
+Se puede ver en el script: [ej5-distancias.cs](./Scripts/ej5-distancias.cs).
+
 ![ejercicio5.gif](./Gifs/ejercicio5.gif)
 
 ### Ejercicio 6 <div id='seis'/>
