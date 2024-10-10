@@ -97,6 +97,7 @@ Se puede apreciar en el gif ese componente (en la zona del inspector).
 El script que se encarga de detectar si se ha pulsado el espacio y de sumar el desplazamiento es [ej6-marcador.cs](./Scripts/ej6-marcador.cs).
 
 * [Class Variables](https://docs.unity3d.com/Packages/com.unity.visualscripting@1.9/api/Unity.VisualScripting.Variables.html)
+* [Input.GetAxis()](https://docs.unity3d.com/ScriptReference/Input.GetAxis.html)
 
 ![ejercicio6.gif](./Gifs/ejercicio6.gif)
 
@@ -104,14 +105,22 @@ El script que se encarga de detectar si se ha pulsado el espacio y de sumar el d
 
 7. _Cambia el color del cilindro cuando el usuario pulse la tecla C, cambia el color del cubo cuando el usuario pulse la flecha arriba._
 
+Este script [ej7-colores.cs](./Scripts/ej7-colores.cs) se ha añadido al objeto `Marcador`.
+Simplemente se buscan esos objetos por su `tag` y se les cambia el color cuando se pulsa la tecla adecuada.
+
 ![ejercicio7.gif](./Gifs/ejercicio7.gif)
 
 ### Ejercicio 8 <div id='ocho'/>
 
 8. _Agrega 5 esferas más en la escena._
-    * Crea un grupo de 2 , asígnales la misma etiqueta para indicar esferas de tipo 1 y a las restantes otra etiqueta diferente a ésta para indicar esferas de grupo 2. 
+    * Crea un grupo de 2 , asígnales la misma etiqueta para indicar esferas de tipo 1 y a las restantes otra etiqueta diferente a ésta para indicar esferas de tipo 2. 
     * En la escena también habrá un cubo. 
     * Implementa un script que aumente la altura de la esfera de tipo 2 más cercana al cubo. 
     * Cambia el color de la más lejana cuando el jugador pulsa la tecla espacio.
+
+Se han creado dos grupos de esferas:    
+* Las de tipo 1 (con tag EsferaTipo1 y colo morado)
+* Las de tipo 2 (con tag EsferaTipo2 y colo naranja)
+Se le ha añadido el siguiente script al cubo [ej8-distancias.cs](./Scripts/ej8-distancias.cs)
 
 ![ejercicio8.gif](./Gifs/ejercicio8.gif)
