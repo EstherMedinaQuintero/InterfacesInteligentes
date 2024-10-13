@@ -11,12 +11,12 @@
     * [Situación 1](#fisicas1)
     * [Situación 2](#fisicas2)
     * [Situación 3](#fisicas3)
-    * [Situación 4 (1)](#fisicas41)
-    * [Situación 4 (2)](#fisicas42)
-    * [Situación 5 (1)](#fisicas51)
-    * [Situación 5 (2)](#fisicas52)
-    * [Situación 6 (1)](#fisicas61)
-    * [Situación 6 (2)](#fisicas62)
+    * [Situación 4](#fisicas4)
+    * [Situación 5](#fisicas5)
+    * [Situación 6](#fisicas6)
+    * [Situación 7](#fisicas7)
+    * [Situación 8](#fisicas8)
+    * [Situación 9](#fisicas9)
 2. [Ejercicios de la práctica 3](#practica)
     1. [Ejercicio 1](#uno)
     2. [Ejercicio 2](#dos)
@@ -37,29 +37,82 @@
 
 #### Situación 1 <div id='fisicas1'/>
 
+* El plano no es un objeto físico: tiene collider.
+* La esfera no es un objeto físico: tiene collider.
+* El cubo es un objeto físico: tiene rigidbody.
+
+![fisicas1.gif](./Gifs/fisicas1.gif)    
 
 #### Situación 2 <div id='fisicas2'/>
 
+* El plano no es un objeto físico: tiene collider.
+* La esfera es un objeto físico: tiene rigidbody.
+* El cubo es un objeto físico: tiene rigidbody.
+
+![fisicas2.gif](./Gifs/fisicas2.gif)    
 
 #### Situación 3 <div id='fisicas3'/>
 
-
-#### Situación 4 (1) <div id='fisicas41'/>
-
-
-#### Situación 4 (2) <div id='fisicas42'/>
+* El plano no es un objeto físico: tiene collider.
+* El cubo es un objeto físico: tiene rigidbody.
+* La esfera es cinemática: 
 
 
-#### Situación 5 (1) <div id='fisicas51'/>
+![fisicas3.gif](./Gifs/fisicas3.gif)   
+
+#### Situación 4 <div id='fisicas4'/>
+
+* El plano es un objeto físico: tiene rigidbody.
+* La esfera es un objeto físico: tiene rigidbody.
+* El cubo es un objeto físico: tiene rigidbody.
+
+![fisicas4.gif](./Gifs/fisicas4.gif)    
+
+#### Situación 5 <div id='fisicas5'/>
+
+* El plano es un objeto físico: tiene rigidbody.
+* La esfera es un objeto físico: tiene rigidbody.
+* La esfera tiene 10 veces más masa que el cubo. 
+* El cubo es un objeto físico: tiene rigidbody.
 
 
-#### Situación 5 (2) <div id='fisicas52'/>
+![fisicas5.gif](./Gifs/fisicas5.gif)  
 
+#### Situación 6 <div id='fisicas6'/>
 
-#### Situación 6 (1) <div id='fisicas61'/>
+* El plano es un objeto físico: tiene rigidbody.
+* La esfera es un objeto físico: tiene rigidbody.
+* La esfera tiene 100 veces más masa que el cubo. 
+* El cubo es un objeto físico: tiene rigidbody.
 
+![fisicas6.gif](./Gifs/fisicas6.gif)    
 
-#### Situación 6 (2) <div id='fisicas62'/>
+#### Situación 7 <div id='fisicas7'/>
+
+* El plano es un objeto físico: tiene rigidbody.
+* La esfera es un objeto físico: tiene rigidbody.
+* La esfera es física con fricción.
+* El cubo es un objeto físico: tiene rigidbody.
+
+![fisicas7.gif](./Gifs/fisicas7.gif)   
+
+#### Situación 8 <div id='fisicas8'/>
+
+* El plano es un objeto físico: tiene rigidbody.
+* La esfera no es un objeto físico: tiene collider.
+* La esfera es trigger y debe tener rigidbody.
+* El cubo es un objeto físico: tiene rigidbody.
+
+![fisicas8.gif](./Gifs/fisicas8.gif)    
+
+#### Situación 9 <div id='fisicas9'/>
+
+* El plano es un objeto físico: tiene rigidbody.
+* La esfera es un objeto físico: tiene rigidbody.
+* La esfera es trigger.
+* El cubo es un objeto físico: tiene rigidbody.
+
+![fisicas9.gif](./Gifs/fisicas9.gif)   
 
 ### Ejercicios de la práctica <div id='practica'/>
 
