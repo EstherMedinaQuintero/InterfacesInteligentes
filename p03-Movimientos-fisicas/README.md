@@ -41,6 +41,8 @@
 * La esfera no es un objeto físico: tiene collider.
 * El cubo es un objeto físico: tiene rigidbody.
 
+En este caso el cubo es el único que puede moverse por el motor de físicas (y chocar con el plano y la esfera).
+
 ![fisicas1.gif](./Gifs/fisicas1.gif)    
 
 #### Situación 2 <div id='fisicas2'/>
@@ -49,14 +51,17 @@
 * La esfera es un objeto físico: tiene rigidbody.
 * El cubo es un objeto físico: tiene rigidbody.
 
+En este caso tanto el cubo como la esfera son movidos por el motor de físicas.
+
 ![fisicas2.gif](./Gifs/fisicas2.gif)    
 
 #### Situación 3 <div id='fisicas3'/>
 
 * El plano no es un objeto físico: tiene collider.
 * El cubo es un objeto físico: tiene rigidbody.
-* La esfera es cinemática: 
+* La esfera es cinemática: isKinematic.
 
+En este caso, la esfera a pesar de tener Rigidbody no puede ser movida por el motor de físicas.
 
 ![fisicas3.gif](./Gifs/fisicas3.gif)   
 
@@ -65,6 +70,8 @@
 * El plano es un objeto físico: tiene rigidbody.
 * La esfera es un objeto físico: tiene rigidbody.
 * El cubo es un objeto físico: tiene rigidbody.
+
+Al tener los tres comportamiento físico, se caen los tres.
 
 ![fisicas4.gif](./Gifs/fisicas4.gif)    
 
@@ -75,6 +82,7 @@
 * La esfera tiene 10 veces más masa que el cubo. 
 * El cubo es un objeto físico: tiene rigidbody.
 
+La esfera, a pesar de tener más masa no se mueve distinto, pues estamos en un entorno sin fricción (principio de equivalencia de Galileo, que establece que en ausencia de otras fuerzas, todos los cuerpos aceleran al mismo ritmo bajo la gravedad). Además, Unity ajusta automáticamente las velocidades usando el motor de física, por lo que aunque la masa afecta la inercia y la forma en que los objetos responden a las fuerzas, la velocidad final no depende de la masa en escenarios en los que las fuerzas aplicadas son uniformes y continuas. De hecho, si añadimos fricción podemos ver que la esfera "empuja" al cubo.
 
 ![fisicas5.gif](./Gifs/fisicas5.gif)  
 
@@ -85,6 +93,8 @@
 * La esfera tiene 100 veces más masa que el cubo. 
 * El cubo es un objeto físico: tiene rigidbody.
 
+Estamos ante el mismo caso que antes.
+
 ![fisicas6.gif](./Gifs/fisicas6.gif)    
 
 #### Situación 7 <div id='fisicas7'/>
@@ -94,14 +104,18 @@
 * La esfera es física con fricción.
 * El cubo es un objeto físico: tiene rigidbody.
 
+Al tener fricción la esfera, le cuesta más moverse.
+
 ![fisicas7.gif](./Gifs/fisicas7.gif)   
 
 #### Situación 8 <div id='fisicas8'/>
 
 * El plano es un objeto físico: tiene rigidbody.
 * La esfera no es un objeto físico: tiene collider.
-* La esfera es trigger y debe tener rigidbody.
+* La esfera es trigger.
 * El cubo es un objeto físico: tiene rigidbody.
+
+En teoría, en esta configuración la esfera deja pasar objetos a través de ella. Sin embargo, por la situación actual no se da el caso. Es decir, la esfera está actuando esencialmente como un sensor (si algún objeto chocase con ella se podría detectar).
 
 ![fisicas8.gif](./Gifs/fisicas8.gif)    
 
@@ -111,6 +125,8 @@
 * La esfera es un objeto físico: tiene rigidbody.
 * La esfera es trigger.
 * El cubo es un objeto físico: tiene rigidbody.
+
+Aquí la situación parece exactamente igual a la de antes; sin embargo, la diferencia es que además de servir como trigger, la esfera se mueve e interactúa con objetos físicos. De hecho, en esta situación si el plano no fuera físico podemos ver que mueve el cubo y atraviesa el plano.
 
 ![fisicas9.gif](./Gifs/fisicas9.gif)   
 
