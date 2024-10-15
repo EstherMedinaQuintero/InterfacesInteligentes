@@ -126,7 +126,7 @@ En teoría, en esta configuración la esfera deja pasar objetos a través de ell
 * La esfera es trigger.
 * El cubo es un objeto físico: tiene rigidbody.
 
-Aquí la situación parece exactamente igual a la de antes; sin embargo, la diferencia es que además de servir como trigger, la esfera se mueve e interactúa con objetos físicos. De hecho, en esta situación si el plano no fuera físico podemos ver que mueve el cubo y atraviesa el plano.
+Aquí la situación parece exactamente igual a la de antes; sin embargo, la diferencia es que además de servir como trigger, la esfera se mueve. De hecho, en esta situación si el plano no fuera físico podemos ver que mueve el cubo y atraviesa el plano.
 
 ![fisicas9.gif](./Gifs/fisicas9.gif)   
 
