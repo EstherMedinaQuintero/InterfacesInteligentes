@@ -146,6 +146,8 @@ Aquí la situación parece exactamente igual a la de antes; sin embargo, la dife
 
 [Input Manager]()
 
+![MapeadoH](./Images/ejercicio2.png)
+
 #### Ejercicio 3 <div id='tres'/>
 
 * Crea un script asociado al cubo que en cada iteración traslade al cubo una cantidad proporcional un vector que indica la dirección del movimiento: moveDirection que debe poder modificarse en el inspector.  
