@@ -223,6 +223,8 @@ Ahora vemos que el movimiento es mucho más natural.
 
 * Configura el cilindro como un objeto físico, cuando el cubo o la esfera colisionen con él se debe mostrar un mensaje en consola con la etiqueta del objeto que haya colisionado.
 
+![ejercicio9.gif](./Gifs/ejercicio9.gif)  
+
 #### Ejercicio 10 <div id='diez'/>
 
 * Configura el cubo como un objeto cinemático y la esfera como un objeto físico. 
@@ -230,10 +232,14 @@ Ahora vemos que el movimiento es mucho más natural.
 
 [Collider](https://docs.unity3d.com/ScriptReference/Collider.html)
 
+![ejercicio10.gif](./Gifs/ejercicio10.gif)  
+
 #### Ejercicio 11 <div id='once'/>
 
 * Configura el cilindro como un objeto de tipo Trigger. 
 * Adapta los scripts de los ejercicios anteriores para obtener el mismo comportamiento.
+
+![ejercicio11.gif](./Gifs/ejercicio11.gif)  
 
 #### Ejercicio 12 <div id='doce'/>
 
