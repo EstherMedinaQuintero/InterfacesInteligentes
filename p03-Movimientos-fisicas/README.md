@@ -138,13 +138,13 @@ Aquí la situación parece exactamente igual a la de antes; sin embargo, la dife
 * Muestra la consola el resultado de multiplicar la velocidad por el valor del eje vertical y por el valor del eje horizontal cada vez que se pulsan las teclas flecha arriba-abajo ó flecha izquierda-derecha. 
 * El mensaje debe comenzar por el nombre de la flecha pulsada. 
 
-[Input]()
+[Input](https://docs.unity3d.com/ScriptReference/Input.html)
 
 #### Ejercicio 2 <div id='dos'/>
 
 * Mapea la tecla H a la función disparo. 
 
-[Input Manager]()
+[Input Manager](https://docs.unity3d.com/Manual/class-InputManager.html)
 
 ![MapeadoH](./Images/ejercicio2.png)
 
@@ -160,8 +160,8 @@ Aquí la situación parece exactamente igual a la de antes; sin embargo, la dife
     * la posición del cubo tiene y>0
     * intercambiar movimiento relativo al sistema de referencia local y el mundial.
 
-[Vector3]()
-[Translate]()
+[Vector3](https://docs.unity3d.com/ScriptReference/Vector3.html)
+[Translate](https://docs.unity3d.com/ScriptReference/Transform.Translate.html)
 
 #### Ejercicio 4 <div id='cuatro'/>
 
@@ -173,7 +173,7 @@ Aquí la situación parece exactamente igual a la de antes; sin embargo, la dife
 
 * Adapta el movimiento en el ejercicio 4 para que sea proporcional al tiempo transcurrido durante la generación del frame.
 
-[Time.DeltaTime]()
+[Time.DeltaTime](https://docs.unity3d.com/ScriptReference/Time-deltaTime.html)
 
 #### Ejercicio 6 <div id='seis'/>
 
@@ -185,14 +185,14 @@ Aquí la situación parece exactamente igual a la de antes; sin embargo, la dife
 * Adapta el movimiento en el ejercicio 6 de forma que el cubo gire hacia la esfera. 
 * Realiza pruebas cambiando la posición de la esfera mediante las teclas awsd
 
-[Método LookAt]()
+[LookAt](https://docs.unity3d.com/ScriptReference/Transform.LookAt.html)
 
 #### Ejercicio 8 <div id='ocho'/>
 
 * Utilizar el eje “Horizontal” para girar el objetivo y que avance siempre en la dirección hacia adelante.
 
-[Método fordward]()
-[Debug.DrawRay]()
+[Fordward](https://docs.unity3d.com/ScriptReference/Transform-forward.html)
+[Debug.DrawRay](https://docs.unity3d.com/ScriptReference/Debug.DrawRay.html)
 
 #### Ejercicio 9 <div id='nueve'/>
 
@@ -203,8 +203,7 @@ Aquí la situación parece exactamente igual a la de antes; sin embargo, la dife
 * Configura el cubo como un objeto cinemático y la esfera como un objeto físico. 
 * Adapta los scripts del ejercicio 9 para obtener el mismo comportamiento.
 
-[OnCollision]()
-[OnTrigger]()
+[Collider](https://docs.unity3d.com/ScriptReference/Collider.html)
 
 #### Ejercicio 11 <div id='once'/>
 
@@ -218,5 +217,3 @@ Aquí la situación parece exactamente igual a la de antes; sin embargo, la dife
 * Prueba diferentes configuraciones de la esfera física con masa 10 veces mayor que el cilindro, física con masa 10 veces menor que el cilindro, cinemática y trigger. 
 * También prueba la configuración del cilindro de forma que su fricción se duplique o no. 
 * Explica en el informe todos los resultados posibles. 
-
-[Motor de físicas]()
