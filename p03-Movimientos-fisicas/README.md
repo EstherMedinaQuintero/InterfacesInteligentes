@@ -140,6 +140,8 @@ Aquí la situación parece exactamente igual a la de antes; sin embargo, la dife
 
 [Input](https://docs.unity3d.com/ScriptReference/Input.html)
 
+![ejercicio1.gif](./Gifs/ejercicio1.gif)   
+
 #### Ejercicio 2 <div id='dos'/>
 
 * Mapea la tecla H a la función disparo. 
@@ -152,16 +154,25 @@ Aquí la situación parece exactamente igual a la de antes; sin embargo, la dife
 
 * Crea un script asociado al cubo que en cada iteración traslade al cubo una cantidad proporcional un vector que indica la dirección del movimiento: moveDirection que debe poder modificarse en el inspector.  
 * La velocidad a la que se produce el movimiento también se especifica en el inspector, con la propiedad speed. 
-* Inicialmente la velocidad debe ser mayor que 1 y el cubo estar en una posición y=0. 
-* En el informe de la práctica comenta los resultados que obtienes en cada una de las siguientes situaciones:
-    * duplicas las coordenadas de la dirección del movimiento.
-    * duplicas la velocidad manteniendo la dirección del movimiento.
-    * la velocidad que usas es menor que 1
-    * la posición del cubo tiene y>0
-    * intercambiar movimiento relativo al sistema de referencia local y el mundial.
+* Inicialmente la velocidad debe ser mayor que 1 y el cubo estar en una posición y = 0. 
+* Situaciones:
+    * duplicas las coordenadas de la dirección del movimiento 
+        * --> Se desplaza más rápido al no haber normalizado
+    * duplicas la velocidad manteniendo la dirección del movimiento 
+        * --> Se desplaza más rápido
+    * la velocidad que usas es menor que 1 
+        * --> Se desplaza muchísimo más lento
+        * --> Si es negativa en sentido contrario
+    * la posición del cubo tiene y>0 
+        * --> Se desplaza en paralelo a la dirección anterior
+    * intercambiar movimiento relativo al sistema de referencia local y el mundial 
+        * --> En este caso coinciden
+        * --> Pero si giras el cubo se nota que cambia; o se mueve con respecto a él o se mueve con respecto al mundo
 
 [Vector3](https://docs.unity3d.com/ScriptReference/Vector3.html)
 [Translate](https://docs.unity3d.com/ScriptReference/Transform.Translate.html)
+
+![ejercicio3.gif](./Gifs/ejercicio3.gif)   
 
 #### Ejercicio 4 <div id='cuatro'/>
 
@@ -169,16 +180,26 @@ Aquí la situación parece exactamente igual a la de antes; sin embargo, la dife
 * Cada uno de estos ejes implican desplazamientos en el eje vertical y horizontal respectivamente. 
 * Mueve la esfera con las teclas w-s (movimiento vertical) a-d (movimiento horizontal).
 
+Al no estar usando la propoción con el tiempo, los objetos se mueven extremadamente rápido.
+
+![ejercicio4.gif](./Gifs/ejercicio4.gif)   
+
 #### Ejercicio 5 <div id='cinco'/>
 
 * Adapta el movimiento en el ejercicio 4 para que sea proporcional al tiempo transcurrido durante la generación del frame.
 
 [Time.DeltaTime](https://docs.unity3d.com/ScriptReference/Time-deltaTime.html)
 
+Ahora vemos que el movimiento es mucho más natural.
+
+![ejercicio5.gif](./Gifs/ejercicio5.gif)   
+
 #### Ejercicio 6 <div id='seis'/>
 
 * Adapta el movimiento en el ejercicio 5 para que el cubo se mueva hacia la posición de la esfera. 
 * Debes considerar, que el avance no debe estar influenciado por cuánto de lejos o cerca estén los dos objetos.
+
+![ejercicio6.gif](./Gifs/ejercicio6.gif)   
 
 #### Ejercicio 7 <div id='siete'/>
 
@@ -187,12 +208,16 @@ Aquí la situación parece exactamente igual a la de antes; sin embargo, la dife
 
 [LookAt](https://docs.unity3d.com/ScriptReference/Transform.LookAt.html)
 
+![ejercicio7.gif](./Gifs/ejercicio7.gif)  
+
 #### Ejercicio 8 <div id='ocho'/>
 
 * Utilizar el eje “Horizontal” para girar el objetivo y que avance siempre en la dirección hacia adelante.
 
 [Fordward](https://docs.unity3d.com/ScriptReference/Transform-forward.html)
 [Debug.DrawRay](https://docs.unity3d.com/ScriptReference/Debug.DrawRay.html)
+
+![ejercicio8.gif](./Gifs/ejercicio8.gif)  
 
 #### Ejercicio 9 <div id='nueve'/>
 
