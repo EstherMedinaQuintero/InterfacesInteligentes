@@ -134,9 +134,9 @@ Aquí la situación parece exactamente igual a la de antes; sin embargo, la dife
 
 #### Ejercicio 1 <div id='uno'/>
 
-* Agrega un campo velocidad a un cubo y asígnale un valor que se pueda cambiar en el inspector de objetos. 
-* Muestra la consola el resultado de multiplicar la velocidad por el valor del eje vertical y por el valor del eje horizontal cada vez que se pulsan las teclas flecha arriba-abajo ó flecha izquierda-derecha. 
-* El mensaje debe comenzar por el nombre de la flecha pulsada. 
+* Agregado campo velocidad a un cubo. 
+* El el gif se puede ver que se muestra por consola el resultado pedido. 
+* El código está en [Ej1Flechas.cs](./Scripts/Ej1Flechas.cs).
 
 [Input](https://docs.unity3d.com/ScriptReference/Input.html)
 
@@ -152,9 +152,8 @@ Aquí la situación parece exactamente igual a la de antes; sin embargo, la dife
 
 #### Ejercicio 3 <div id='tres'/>
 
-* Crea un script asociado al cubo que en cada iteración traslade al cubo una cantidad proporcional un vector que indica la dirección del movimiento: moveDirection que debe poder modificarse en el inspector.  
-* La velocidad a la que se produce el movimiento también se especifica en el inspector, con la propiedad speed. 
-* Inicialmente la velocidad debe ser mayor que 1 y el cubo estar en una posición y = 0. 
+* Script asociado al cubo que en cada iteración traslade al cubo una cantidad moveDirection.  
+* El código está en [Ej3Trasladar.cs](./Scripts/Ej3Trasladar.cs).
 * Situaciones:
     * duplicas las coordenadas de la dirección del movimiento 
         * --> Se desplaza más rápido al no haber normalizado
@@ -177,8 +176,8 @@ Aquí la situación parece exactamente igual a la de antes; sin embargo, la dife
 #### Ejercicio 4 <div id='cuatro'/>
 
 * Mueve el cubo con las teclas de flecha arriba-abajo, izquierda-derecha a la velocidad speed. 
-* Cada uno de estos ejes implican desplazamientos en el eje vertical y horizontal respectivamente. 
 * Mueve la esfera con las teclas w-s (movimiento vertical) a-d (movimiento horizontal).
+* El código está en [Ej4Movimiento.cs](./Scripts/Ej4Movimiento.cs).
 
 Al no estar usando la propoción con el tiempo, los objetos se mueven extremadamente rápido.
 
@@ -186,7 +185,8 @@ Al no estar usando la propoción con el tiempo, los objetos se mueven extremadam
 
 #### Ejercicio 5 <div id='cinco'/>
 
-* Adapta el movimiento en el ejercicio 4 para que sea proporcional al tiempo transcurrido durante la generación del frame.
+* Adaptado el movimiento en el ejercicio 4: es proporcional al tiempo transcurrido durante la generación del frame.
+* El código está en [Ej5Tiempo.cs](./Scripts/Ej5Tiempo.cs).
 
 [Time.DeltaTime](https://docs.unity3d.com/ScriptReference/Time-deltaTime.html)
 
@@ -196,15 +196,16 @@ Ahora vemos que el movimiento es mucho más natural.
 
 #### Ejercicio 6 <div id='seis'/>
 
-* Adapta el movimiento en el ejercicio 5 para que el cubo se mueva hacia la posición de la esfera. 
-* Debes considerar, que el avance no debe estar influenciado por cuánto de lejos o cerca estén los dos objetos.
+* Adaptado el movimiento en el ejercicio 5: el cubo se mueve hacia la posición de la esfera. 
+* El avance no está influenciado por cuánto de lejos o cerca estén los dos objetos.
+* El código está en [Ej6HaciaEsfera.cs](./Scripts/Ej6HaciaEsfera.cs).
 
 ![ejercicio6.gif](./Gifs/ejercicio6.gif)   
 
 #### Ejercicio 7 <div id='siete'/>
 
-* Adapta el movimiento en el ejercicio 6 de forma que el cubo gire hacia la esfera. 
-* Realiza pruebas cambiando la posición de la esfera mediante las teclas awsd
+* Adaptado el movimiento en el ejercicio 6: el cubo gira hacia la esfera. 
+* El código está en [Ej7Girando.cs](./Scripts/Ej7Girando.cs).
 
 [LookAt](https://docs.unity3d.com/ScriptReference/Transform.LookAt.html)
 
@@ -213,6 +214,7 @@ Ahora vemos que el movimiento es mucho más natural.
 #### Ejercicio 8 <div id='ocho'/>
 
 * Utilizar el eje “Horizontal” para girar el objetivo y que avance siempre en la dirección hacia adelante.
+* El código está en [Ej8GirarObjetivo.cs](./Scripts/Ej8GirarObjetivo.cs).
 
 [Fordward](https://docs.unity3d.com/ScriptReference/Transform-forward.html)
 [Debug.DrawRay](https://docs.unity3d.com/ScriptReference/Debug.DrawRay.html)
@@ -221,14 +223,16 @@ Ahora vemos que el movimiento es mucho más natural.
 
 #### Ejercicio 9 <div id='nueve'/>
 
-* Configura el cilindro como un objeto físico, cuando el cubo o la esfera colisionen con él se debe mostrar un mensaje en consola con la etiqueta del objeto que haya colisionado.
+* El cilindro es un objeto físico.
+* Cuando el cubo o la esfera colisionan con él se muestra un mensaje.
+* El código está en [Ej9Colision.cs](./Scripts/Ej9Colision.cs).
 
 ![ejercicio9.gif](./Gifs/ejercicio9.gif)  
 
 #### Ejercicio 10 <div id='diez'/>
 
-* Configura el cubo como un objeto cinemático y la esfera como un objeto físico. 
-* Adapta los scripts del ejercicio 9 para obtener el mismo comportamiento.
+* El cubo es un objeto cinemático y la esfera es un objeto físico. 
+* El código está en [Ej10Colision.cs](./Scripts/Ej10Colision.cs).
 
 [Collider](https://docs.unity3d.com/ScriptReference/Collider.html)
 
@@ -236,8 +240,8 @@ Ahora vemos que el movimiento es mucho más natural.
 
 #### Ejercicio 11 <div id='once'/>
 
-* Configura el cilindro como un objeto de tipo Trigger. 
-* Adapta los scripts de los ejercicios anteriores para obtener el mismo comportamiento.
+* El cilindro es un objeto de tipo Trigger. 
+* El código está en [Ej11Colision.cs](./Scripts/Ej11Colision.cs).
 
 ![ejercicio11.gif](./Gifs/ejercicio11.gif)  
 
@@ -253,5 +257,6 @@ Ahora vemos que el movimiento es mucho más natural.
     * Esfera cinemática y trigger: atraviesa
     * Cilindro con fricción duplicada: cuesta moverlo y para en seco
     * Cilindro con fricción reducida: cuesta menos moverlo y tarda en frenar
+* El código está en [Ej12Movimiento.cs](./Scripts/Ej12Movimiento.cs).
 
 ![ejercicio12.gif](./Gifs/ejercicio12.gif)  
