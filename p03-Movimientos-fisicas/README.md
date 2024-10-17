@@ -252,8 +252,8 @@ Ahora vemos que el movimiento es mucho más natural.
 * Prueba diferentes configuraciones de la esfera física con masa 10 veces mayor que el cilindro, física con masa 10 veces menor que el cilindro, cinemática y trigger. 
 * También prueba la configuración del cilindro de forma que su fricción se duplique o no. 
 * Explica en el informe todos los resultados posibles. 
-    * Esfera con 10 veces más masa: acelera menos, pero mayor impacto
-    * Esfera con 10 veces menos masa: acelera más, pero menos impacto
+    * Esfera con 10 veces más masa: cuesta más golpearla, acelera menos
+    * Esfera con 10 veces menos masa: cuesta menos golpearla, acelera más
     * Esfera cinemática y trigger: atraviesa
     * Cilindro con fricción duplicada: cuesta moverlo y para en seco
     * Cilindro con fricción reducida: cuesta menos moverlo y tarda en frenar
