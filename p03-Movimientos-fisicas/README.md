@@ -168,8 +168,8 @@ Aquí la situación parece exactamente igual a la de antes; sin embargo, la dife
         * --> En este caso coinciden
         * --> Pero si giras el cubo se nota que cambia; o se mueve con respecto a él o se mueve con respecto al mundo
 
-[Vector3](https://docs.unity3d.com/ScriptReference/Vector3.html)
-[Translate](https://docs.unity3d.com/ScriptReference/Transform.Translate.html)
+[Vector3](https://docs.unity3d.com/ScriptReference/Vector3.html)     
+[Translate](https://docs.unity3d.com/ScriptReference/Transform.Translate.html)     
 
 ![ejercicio3.gif](./Gifs/ejercicio3.gif)   
 
@@ -216,8 +216,8 @@ Ahora vemos que el movimiento es mucho más natural.
 * Utilizar el eje “Horizontal” para girar el objetivo y que avance siempre en la dirección hacia adelante.
 * El código está en [Ej8GirarObjetivo.cs](./Scripts/Ej8GirarObjetivo.cs).
 
-[Fordward](https://docs.unity3d.com/ScriptReference/Transform-forward.html)
-[Debug.DrawRay](https://docs.unity3d.com/ScriptReference/Debug.DrawRay.html)
+[Fordward](https://docs.unity3d.com/ScriptReference/Transform-forward.html)     
+[Debug.DrawRay](https://docs.unity3d.com/ScriptReference/Debug.DrawRay.html)     
 
 ![ejercicio8.gif](./Gifs/ejercicio8.gif)  
 
