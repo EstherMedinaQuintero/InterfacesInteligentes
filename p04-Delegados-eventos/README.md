@@ -24,11 +24,14 @@
 
 #### Ejercicio 1 <div id='uno'/>
 
-* Escena: 
-  * Un plano
-  * Un cilindro (Con el que se puede colisionar)
-  * Un cubo (Que tiene movilidad)
-  * Esferas de dos tipo (tipo 1 y tipo 2)
+* Cubo 
+  * Movimiento cinemático: [Movimiento](./Scripts/Movimiento.cs)
+  * Notificador: [Ej1Notificador](./Scripts/Ej1Notificador.cs)
+* Esferas de tipo 1
+  * Suscriptoras: [Ej1RespuestaTipo1](./Scripts/Ej1RespuestaTipo1.cs)
+* Esferas de tipo 2
+  * Suscriptoras: [Ej2RespuestaTipo2](./Scripts/Ej2RespuestaTipo2.cs)
+
 * Funcionamiento:
   * Cuando el cubo colisiona con el cilindro:
     * Las esferas de tipo 1 se dirigen hacia una esfera de tipo 2
@@ -50,37 +53,40 @@
 
 #### Ejercicio 3 <div id='tres'/>
 
-* Ahora hay arañas de tipo 1 y arañas de tipo 2.
-* También hay huevos de tipo 1 y huevos de tipo 2.
+* Cubo: [Ej3Notificador](./Scripts/Ej3Notificador.cs)
+* Arañas de tipo 1: [Ej3Respuesta](./Scripts/Ej3Respuesta.cs)
+
 * Cuando el cubo colisione con una araña del tipo 2:
-  * Las del tipo 1 se acercarán a un objeto.
+  * Las del tipo 1 van hacia un huevo del tipo 1.
 * Cuando el cubo colisiones con una araña del tipo 1:
-  * Las arañas del tipo 1 van hacia huevos del tipo 2.
+  * Las arañas del tipo 1 van hacia un huevo del tipo 2.
   * Si tocan uno, deben cambiar de color.
 
 ![ejercicio3.gif](./Gifs/ejercicio3.gif)   
 
 #### Ejercicio 4 <div id='cuatro'/>
 
+* Cubo: [Ej4Notificador](./Scripts/Ej4Notificador.cs)
+* Arañas de tipo 1: [Ej4RespuestaT1](./Scripts/Ej4RespuestaT1.cs)
+* Arañas de tipo 2: [Ej4RespuestaT2](./Scripts/Ej4RespuestaT2.cs)
+
 * Cuando el cubo colisione con el cilindro:
   * Las arañas del grupo 1 se teletransportan a un huevo fijado.
-  * Las arañas del grupo 2 se orientan hacia un objeto fijado.
+  * Las arañas del grupo 2 se orientan hacia un huevo fijado.
 
 ![ejercicio4.gif](./Gifs/ejercicio4.gif)   
 
 #### Ejercicio 5 <div id='cinco'/>
 
-* Implementación de la mecánica de recolectar huevo.
-* Añadir una puntuación para el jugador:
+* Añadir una puntuación para el jugador: [Ej5Puntuacion](./Scripts/Ej5Puntuacion.cs)
   * Las arañas de tipo 1 suman 5 puntos.
   * Las arañas de tipo 2 suman 10 puntos.
-  * Mostrar la puntuación por consola.
 
 ![ejercicio5.gif](./Gifs/ejercicio5.gif)   
 
 #### Ejercicio 6 <div id='seis'/>
 
-* Interfaz que muestre la puntuación.
+* Interfaz que muestre la puntuación: [Ej6Puntuacion](./Scripts/Ej6Puntuacion.cs)
 
 [Canvas](https://docs.unity3d.com/ScriptReference/Canvas.html)
 
@@ -88,20 +94,27 @@
 
 #### Ejercicio 7 <div id='siete'/>
 
-* Añadir que cada 100 puntos el jugador tiene una recompensa.
-* Mostrar esa recompensa en la UI.
+* Cada 100 puntos se sube un nivel.
 
 ![ejercicio7.gif](./Gifs/ejercicio7.gif)   
 
 #### Ejercicio 8 <div id='ocho'/>
 
-* Generar una escena que tenga elementos que se ajusten a la escena del prototipo y alguna de esa mecánicas.
+* Escena:
+  * Estás en tus servidores y tienes una plaga de arañas.
+  * Tienes que matarlas a todas.
+
+* Mecánicas:
+  * Respuesta: [Ej8Respuesta](./Scripts/Ej8Respuesta.cs)
+  * Notificador con parámetros: [Ej8Notificador](./Scripts/Ej8Notificador.cs)
+  * Contador en UI
 
 ![ejercicio8.gif](./Gifs/ejercicio8.gif)   
 
 #### Ejercicio 9 <div id='nueve'/>
 
 * Implementar el ejercicio 3 siendo el cubo un objeto físico.
+* Nuevo movimiento: [MovimientoFisicas](./Scripts/MovimientoFisicas.cs)
 
 ![ejercicio9.gif](./Gifs/ejercicio9.gif)   
 
