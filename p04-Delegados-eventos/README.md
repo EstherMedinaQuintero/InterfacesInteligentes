@@ -7,7 +7,7 @@
 
 ## Índice <div id='indice'/>
 
-1. [Ejercicios de la práctica 3](#practica)
+1. [Ejercicios de la práctica 4](#practica)
     1. [Ejercicio 1](#uno)
     2. [Ejercicio 2](#dos)
     3. [Ejercicio 3](#tres)
@@ -30,7 +30,7 @@
 * Esferas de tipo 1
   * Suscriptoras: [Ej1RespuestaTipo1](./Scripts/Ej1RespuestaTipo1.cs)
 * Esferas de tipo 2
-  * Suscriptoras: [Ej2RespuestaTipo2](./Scripts/Ej2RespuestaTipo2.cs)
+  * Suscriptoras: [Ej1RespuestaTipo2](./Scripts/Ej1RespuestaTipo2.cs)
 
 * Funcionamiento:
   * Cuando el cubo colisiona con el cilindro:
@@ -94,7 +94,7 @@
 
 #### Ejercicio 7 <div id='siete'/>
 
-* Cada 100 puntos se sube un nivel.
+* Cada 100 puntos se sube un nivel: [Ej7Puntuacion](./Scripts/Ej7Puntuación.cs)
 
 ![ejercicio7.gif](./Gifs/ejercicio7.gif)   
 
