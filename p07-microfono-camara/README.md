@@ -45,7 +45,7 @@ public class Sound: MonoBehaviour {
 
 ```
 
-<video controls src="Multimedia/SonidoChoque.mp4" title="SonidoChoque"></video>
+<video controls src="./Multimedia/SonidoChoque.mp4" title="SonidoChoque"></video>
 
 #### Grabar y reproducir <div id='grabar'/>
 
@@ -100,7 +100,7 @@ public class Grabadora: MonoBehaviour {
 }
 ```
 
-<video controls src="Multimedia/Grabacion.mp4" title="Grabacion"></video>
+<video controls src="./Multimedia/Grabacion.mp4" title="Grabacion"></video>
 
 ### Cámara <div id='camara'/>
 
@@ -173,7 +173,7 @@ public class Camara: MonoBehaviour {
 
 ```
 
-<video controls src="Multimedia/CamaraNombre.mp4" title="CamaraNombre"></video>
+<video controls src="./Multimedia/CamaraNombre.mp4" title="CamaraNombre"></video>
 
 3. Guardar fotogramas
 
