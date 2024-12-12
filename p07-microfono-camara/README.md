@@ -45,7 +45,7 @@ public class Sound: MonoBehaviour {
 
 ```
 
-![Sonido al chocar](https://github.com/EstherMedinaQuintero/InterfacesInteligentes/blob/main/p07-microfono-camara/Multimedia/SonidoChoque.mp4)
+![Sonido al chocar](./Multimedia/SonidoChoque.mp4)
 
 #### Grabar y reproducir <div id='grabar'/>
 
@@ -100,7 +100,7 @@ public class Grabadora: MonoBehaviour {
 }
 ```
 
-![Grabacion](https://github.com/EstherMedinaQuintero/InterfacesInteligentes/blob/main/p07-microfono-camara/Multimedia/Grabacion.mp4)
+![Grabacion](./Multimedia/Grabacion.mp4)
 
 ### Cámara <div id='camara'/>
 
@@ -173,7 +173,7 @@ public class Camara: MonoBehaviour {
 
 ```
 
-![CamaraNombre](https://github.com/EstherMedinaQuintero/InterfacesInteligentes/blob/main/p07-microfono-camara/Multimedia/CamaraNombre.mp4)
+![CamaraNombre](./Multimedia/CamaraNombre.mp4)
 
 3. Guardar fotogramas
 
