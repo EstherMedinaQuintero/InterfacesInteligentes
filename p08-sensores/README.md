@@ -97,4 +97,4 @@ public class SamuraiController: MonoBehaviour {
 
 ```
 
-![Gif del movimiento](Screen_Recording_20241215_165711_practica_sensores.gif)
+![Gif del movimiento](./Multimedia/Screen_Recording_20241215_165711_practica_sensores.gif)
